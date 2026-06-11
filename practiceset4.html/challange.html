@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+// Q1 print all even nos frm 1 t ot 100
+
+// for(let i = 0;i<101;i++){
+//     if(i%2==0){
+//         console.log(i);
+//     }
+// }
+
+
+// Q2 ask the user to enter any nujmber frm 1 - to and if user gussed it write  write congrats you win or else you gussed the wrong number 
+
+number =Number(prompt("guess the number frm 1-30:"));
+
+for (let i = 21; number!=i; ){
+if(number<0 || number>30){
+    console.log("enter number between 1-30 only")
+    number = Number(prompt("you gussed wrong number try again :"))
+}
+  number = Number(prompt("you gussed wrong number try again :"))
+    
+}
+console.log("congrtas you gussed the correct number ");
+    </script>
+</body>
+</html>
